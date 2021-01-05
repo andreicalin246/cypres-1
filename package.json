@@ -17,7 +17,11 @@
     "url": "https://github.com/andreicalin246/cypres-1/issues"
   },
   "homepage": "https://github.com/andreicalin246/cypres-1#readme",
-  "devDependencies": {
-    "cypress": "^6.2.0"
+  "dependencies": {
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "sinon-chai": "^3.5.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
